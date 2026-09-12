@@ -2,6 +2,27 @@
 
 一个面向中文真人口播视频的完整 AI 剪辑工作流 Skill。它把整条视频当作连续的视觉段落来规划：先理解 A-roll、素材和口播，再用 HyperFrames / Remotion 制作可独立调整的动效与转场，最后在 ChatCut 中完成组装、混音、检查和交付。
 
+## 一句话安装
+
+在终端执行下面这一句，Skill 会安装到 Codex 的 Skills 目录：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/xiaoshan-shuma/full-video-motion-workflow/main/install.sh | bash
+```
+
+安装完成后重启或刷新 Codex，然后直接说：
+
+```text
+使用 full-video-motion-workflow，采用奶油拼贴风。
+```
+
+也可以手动安装：
+
+```bash
+git clone https://github.com/xiaoshan-shuma/full-video-motion-workflow.git \
+  ~/.codex/skills/full-video-motion-workflow
+```
+
 ## 适用场景
 
 - 中文口播、教程、AI 工具介绍、产品讲解和个人品牌视频
